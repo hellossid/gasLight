@@ -1,0 +1,42 @@
+.app{
+    background-color: #fafafa;
+}
+
+.mod{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+}
+
+.app_header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_header i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.app_post{
+    padding: 20px;
+}
